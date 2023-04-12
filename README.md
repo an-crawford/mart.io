@@ -23,3 +23,9 @@ There are a number of functions in the extra.py file. These are used to generate
 
 ## How the Model Works
 The model itself is stored in the pickle file. The model is a gradient boosting classifier which produced an accuracy of 95.4% on the testing set. The model was trained on roughly a months and a half (47 days) worth of MARTA, weather, and traffic data, amounting to around 350,000 rows of data. A lag of 7 days was used on the delays in order to generate our predictions for a week in advance. 
+
+## Data
+The data folder contrains csv files used to generate the map, such as the name and location of each station. 
+
+## Additonal Python Files
+These files contain jupyter notebooks used to collect, clean, and process the data. It also contains code for running the model. These notebooks are not necessary for running the flask server, they are just there for additional transparency
