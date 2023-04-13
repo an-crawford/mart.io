@@ -1,4 +1,4 @@
-# MARTA
+# MART.io
 
 ## Description
 This repo contains code to run a flask server which allows the user to create maps predicting the delays of MARTA trains 7 days in advance. Running server.py will initalize the server, using functions from the extra.py file and the stored model in model1.pkl. 
